@@ -1,0 +1,38 @@
+/* Center the content using Bootstrap container class */
+main {
+  padding: 20px;
+}
+
+/* Header banner styling using Bootstrap classes */
+header {
+  background-color: #343a40; /* Bootstrap dark background color */
+  color: #ffffff; /* White text color */
+  padding: 5px;
+  text-align: center;
+}
+
+/* Add separating lines between sections using Bootstrap hr class */
+section {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+/* Footer styling using Bootstrap classes */
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Override Bootstrap styling for the site title */
+h1 {
+  color: #ffffff;
+}
+
+/* Responsive utility classes for small screens */
+@media (max-width: 576px) {
+  main {
+      padding: 10px;
+  }
+}
