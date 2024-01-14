@@ -11,6 +11,20 @@ header {
   text-align: center;
 }
 
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+
 /* Add separating lines between sections using Bootstrap hr class */
 section {
   margin-bottom: 10px;
