@@ -1,17 +1,17 @@
 /* Center the content using Bootstrap container class */
 main {
-  padding: 20px;
+  padding: 5px;
 }
 
 /* Header banner styling using Bootstrap classes */
 header {
   background-color: #343a40; /* Bootstrap dark background color */
   color: #ffffff; /* White text color */
-  padding: 5px;
+  padding: 1px;
   text-align: center;
 }
 
-a:link, a:visited {
+.RedLink {
   background-color: #f44336;
   color: white;
   padding: 5px 5px;
@@ -21,9 +21,12 @@ a:link, a:visited {
   display: inline-block;
 }
 
-a:hover, a:active {
-  background-color: red;
+.RedLink:hover, .RedLink:active {
+  color: white;
+  text-decoration: none;
+  background-color: darkred;
 }
+
 
 /* Add separating lines between sections using Bootstrap hr class */
 section {
@@ -47,6 +50,6 @@ h1 {
 /* Responsive utility classes for small screens */
 @media (max-width: 576px) {
   main {
-      padding: 10px;
+      padding: 1px;
   }
 }
