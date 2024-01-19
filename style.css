@@ -53,3 +53,10 @@ h1 {
       padding: 1px;
   }
 }
+
+.video-container {
+  border: 1px solid darkslategrey; /* Border color */
+  border-radius: 8px; /* Optional: Add border radius for a rounded look */
+  overflow: hidden; /* Hide overflow for rounded corners */
+  padding: 5px;
+}
