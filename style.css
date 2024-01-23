@@ -20,6 +20,11 @@ header {
   height: 40px; /* You can adjust the height */
 }
 
+#textInputResources {
+  width: 500px; /* You can adjust the width */
+  height: 80px; /* You can adjust the height */
+}
+
 .RedLink {
   background-color: #f44336;
   color: white;
